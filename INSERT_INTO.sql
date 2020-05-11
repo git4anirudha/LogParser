@@ -1,7 +1,4 @@
-INSERT INTO [dbo].[DEPT]
-           ([DEPTNO]
-           ,[DNAME]
-           ,[LOC])
+INSERT INTO DEPT
+           (DEPTNO ,DNAME,LOC)
      VALUES
-           (55,'ANI', 'MUN')
-GO
+           (55,'ANI', 'MUN');
